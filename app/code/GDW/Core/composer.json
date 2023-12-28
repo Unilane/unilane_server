@@ -1,0 +1,33 @@
+{
+  "name": "gdw/core",
+  "description": "Módulo base GDW Para Magento 2",
+  "type": "magento2-module",
+  "version": "2.0.9",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "José Cruz Chávez",
+      "email": "jcruz@gdw.mx",
+      "homepage": "https://gdw.mx",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "magento 2",
+    "core",
+    "gestion digital web",
+    "gdw"
+  ],
+  "require": {
+    "php": "^7.2||^8.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GDW\\Core\\": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1703771621;s:6:"expire";i:1703858021;s:4:"tags";s:49:"09f_BLOCK_HTML,09f_CAT_P_15683,09f_CAT_P,09f_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="15683" data-price-box="product-id-15683">
+
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span  id="product-price-15683"                data-price-amount="3284.34"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$3,284.34</span></span>
+                <meta itemprop="price" content="3284.34" />
+        <meta itemprop="priceCurrency" content="MXN" />
+    </span>
+
+</div>

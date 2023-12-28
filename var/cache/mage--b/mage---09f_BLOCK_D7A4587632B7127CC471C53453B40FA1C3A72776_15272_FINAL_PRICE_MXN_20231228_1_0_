@@ -1,0 +1,31 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1703779060;s:6:"expire";i:1703865460;s:4:"tags";s:49:"09f_BLOCK_HTML,09f_CAT_P_15272,09f_CAT_P,09f_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="15272" data-price-box="product-id-15272">
+
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Precio habitual</span>
+        <span  id="old-price-15272"                data-price-amount="1926.53"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">$1,926.53</span></span>
+        </span>
+    </span>
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label">Precio especial</span>
+        <span  id="product-price-15272"                data-price-amount="1695.35"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$1,695.35</span></span>
+                <meta itemprop="price" content="1695.35" />
+        <meta itemprop="priceCurrency" content="MXN" />
+    </span>
+    </span>
+
+</div>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin" >
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="GDW_Core::config" title="GDW Section" sortOrder="1">
+                                <resource id="GDW_Core::general" title="General Section" sortOrder="1"/>
+                                <resource id="GDW_Core::web" title="Web Section" sortOrder="2"/>
+                                <resource id="GDW_Core::catalog" title="Catalog Section" sortOrder="3"/>
+                                <resource id="GDW_Core::customer" title="Customer Section" sortOrder="4"/>
+                                <resource id="GDW_Core::seo" title="SEO Section" sortOrder="5"/>
+                                <resource id="GDW_Core::marketing" title="Marketing Section" sortOrder="6"/> 
+                                <resource id="GDW_Core::security" title="Security Section" sortOrder="7"/>
+                                <resource id="GDW_Core::sales" title="Sales Section" sortOrder="8"/>
+                                <resource id="GDW_Core::developer" title="Developer Section" sortOrder="9"/>
+                            </resource>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
