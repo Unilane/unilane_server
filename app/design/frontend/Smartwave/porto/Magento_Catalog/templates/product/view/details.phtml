@@ -31,30 +31,6 @@
                 <?php $layout = $block->getLayout(); ?>
                 <?php if(!$tab_style || $tab_style != "sticky"): ?>
                     <div class="product data items <?php if($page_type == 'sticky_right'): ?>container<?php endif; ?>" data-mage-init='{"tabs":{"openedState":"active"}}'>
-                        <?php foreach ($detailedInfoGroup as $name):?>
-                            <?php
-                            $html = $layout->renderElement($name);
-                            if (!trim($html)) {
-                                continue;
-                            }
-                            $alias = $layout->getElementAlias($name);
-                            $label = $block->getChildData($alias, 'title');
-                            ?>
-                            <div class="data item title"
-                                 aria-labeledby="tab-label-<?php /* @escapeNotVerified */ echo $alias;?>-title"
-                                 data-role="collapsible" id="tab-label-<?php /* @escapeNotVerified */ echo $alias;?>">
-                                <a class="data switch"
-                                   tabindex="-1"
-                                   data-toggle="switch"
-                                   href="#<?php /* @escapeNotVerified */ echo $alias; ?>"
-                                   id="tab-label-<?php /* @escapeNotVerified */ echo $alias;?>-title">
-                                    <span><?php /* @escapeNotVerified */ echo $label; ?></span>
-                                </a>
-                            </div>
-                            <div class="data item content" id="<?php /* @escapeNotVerified */ echo $alias; ?>" data-role="content">
-                                <?php /* @escapeNotVerified */ echo $html; ?>
-                            </div>
-                        <?php endforeach;?>
                         <?php
                         if($custom_cms_tabs = $_helper->getCustomTabs($_product)) {
                             $i = 1;
