@@ -1,4 +1,5 @@
 /* Magnific Popup CSS */
+/*
 .mfp-bg {
     top: 0;
     left: 0;
@@ -246,9 +247,9 @@
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
       opacity: 0;
       background: #000; }
-  
+  */
   /* Main image in popup */
-  img.mfp-img {
+  /* img.mfp-img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -256,10 +257,10 @@
     line-height: 0;
     box-sizing: border-box;
     padding: 40px 0 40px;
-    margin: 0 auto; }
+    margin: 0 auto; } */
   
   /* The shadow behind the image */
-  .mfp-figure {
+  /* .mfp-figure {
     line-height: 0; }
     .mfp-figure:after {
       content: '';
@@ -301,13 +302,13 @@
     max-width: 100%; }
   
   .mfp-gallery .mfp-image-holder .mfp-figure {
-    cursor: pointer; }
+    cursor: pointer; } */
   
-  @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /* @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) { */
     /**
          * Remove all paddings around the image on small screen
          */
-    .mfp-img-mobile .mfp-image-holder {
+    /* .mfp-img-mobile .mfp-image-holder {
       padding-left: 0;
       padding-right: 0; }
     .mfp-img-mobile img.mfp-img {
@@ -400,4 +401,4 @@
     50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) }
     100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg) }
   }
-  
+   */

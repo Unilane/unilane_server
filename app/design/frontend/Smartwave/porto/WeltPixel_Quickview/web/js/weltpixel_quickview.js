@@ -21,8 +21,11 @@ define([
                   src: prodUrl
                 },
                 type: 'iframe',
-                closeOnBgClick: false,
+                closeOnBgClick: true,
                 preloader: true,
+                removalDelay: 100,
+                closeBtnInside: true,
+                // showCloseBtn:true,
                 tLoading: '',
                 callbacks: {
                     open: function() {

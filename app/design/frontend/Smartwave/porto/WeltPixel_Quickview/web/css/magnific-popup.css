@@ -361,7 +361,7 @@ img.mfp-img {
 
 
 .mfp-preloader {
-    z-index: 99999;
+     z-index: 99999;
     content: "";
     border: 2px solid transparent;
     border-top-color: #08c;
@@ -378,9 +378,18 @@ img.mfp-img {
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 0; 
+    /* color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; */
 }
-.mfp-preloader:before {
+ .mfp-preloader:before {
     content: '';
     position: absolute;
     left: -2px;
@@ -391,7 +400,7 @@ img.mfp-img {
     border-radius: inherit;
     border-top-color: inherit;
     animation: spin 1.5s infinite;
-}
+} 
 @-webkit-keyframes rotateplane {
   0% { -webkit-transform: perspective(120px) }
   50% { -webkit-transform: perspective(120px) rotateY(180deg) }
