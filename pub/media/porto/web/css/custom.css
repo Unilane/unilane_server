@@ -597,7 +597,7 @@ article.post .post-date .month, .post-item .post-date .month {box-shadow: 0 -1px
 /*endfooter*/
 .sidebar.sidebar-second { order: 3; width: 100%;flex: 0 0 100%;}
 @media (min-width: 992px) {
-.page-layout-2columns-left .column.main {padding-left: 5px;}
+.page-layout-2columns-left .column.main {padding-left: 20px;}
 .page-layout-2columns-right .column.main {padding-right: 5px;}
 .page-layout-2columns-left .sidebar.sidebar-main{padding-right:15px;}
 .page-layout-2columns-right .sidebar.sidebar-main{padding-left:15px;}
